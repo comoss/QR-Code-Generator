@@ -7,6 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Name="_TB_Encode_Input" Grid.ColumnSpan="2"></TextBox>
+        <Button Name="_BTN_Encode" Grid.Column="2" Click="_BTN_Encode_Click">Encode</Button>
+        <Image Name="_IMG_Preview" Grid.Row="2" Grid.Column="1" Grid.RowSpan="5"></Image>
+        <Button Name="_BTN_Save" Grid.Row="9" Grid.Column="2" Click="_BTN_Save_Click">Save</Button>
     </Grid>
 </Window>
