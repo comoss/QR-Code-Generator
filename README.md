@@ -12,4 +12,4 @@ I plan on adding some additional functionality to spice things up.
 - [ ] choose save location
 - [ ] Give options to choose qr code colors
 - [ ] Give the option to embed images into QR code  
-
+- [ ] Add Addtional payload types.  
